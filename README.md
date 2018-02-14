@@ -43,9 +43,10 @@ Can be found in the URL. Example: http://192.168.1.200:32400/web/index.html
 2. Click "Create task..."
 3. Go to the "Trigger" tab and add a new trigger. Select "Begin the task: At log on".
 4. Go to the "Actions" tab and add the following:
-	Action: Start a program
-	Program/script: Powershell.exe
-	Add arguments: -windowstyle hidden .\Plex_Keyboard_LED.ps1
-	Start in: < The location where you store the files >
 
-	![enter image description here](https://i.imgur.com/reOXUuE.png)
+    Action: Start a program
+    Program/script: Powershell.exe
+    Add arguments: -windowstyle hidden .\Plex_Keyboard_LED.ps1
+    Start in: < The location where you store the files >
+
+![enter image description here](https://i.imgur.com/reOXUuE.png)
