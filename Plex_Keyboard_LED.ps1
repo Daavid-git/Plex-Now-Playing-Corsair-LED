@@ -65,8 +65,8 @@ while ($active)
 	if ($numbers_of_streams -ne $last_check) #check if stream count has changed
 	{
 		[CUE.NET.CueSDK]::Reinitialize() #Reset keyboard LEDs
-		$Keypad = "Keypad$($numbers_of_streams)"
-		$keyboard[[CUE.NET.Devices.Keyboard.Enums.CorsairKeyboardLedId]::$Keypad].Color = $LED_color
+		$Key = "F$($numbers_of_streams)"
+		$keyboard[[CUE.NET.Devices.Keyboard.Enums.CorsairKeyboardLedId]::$Key].Color = $LED_color
 		$keyboard.Update()
 		if ($users.count -ne 0)
 		{

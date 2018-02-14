@@ -1,7 +1,10 @@
+
 # Plex Now-Playing Corsair LED
 
 This script will change the color on your numpad keys in order to display the current active steams on your plex server.
-Recom
+
+![Keyboard example](https://i.imgur.com/aUaifW8.png)
+
 
 Before you run the Powershell script, you need to update the configuration variables in the script (.ps1 file) and make sure the Powershell execution policy is not restricted.
 
@@ -35,3 +38,14 @@ Can be found in the URL. Example: http://192.168.1.200:32400/web/index.html
     $Plex_local_server_IP = "192.168.1.200"
 
 ## Create a scheduled Task
+
+1. Open Task Scheduler
+2. Click "Create task..."
+3. Go to the "Trigger" tab and add a new trigger. Select "Begin the task: At log on".
+4. Go to the "Actions" tab and add the following:
+	Action: Start a program
+	Program/script: Powershell.exe
+	Add arguments: -windowstyle hidden .\Plex_Keyboard_LED.ps1
+	Start in: < The location where you store the files >
+
+	![enter image description here](https://i.imgur.com/reOXUuE.png)
