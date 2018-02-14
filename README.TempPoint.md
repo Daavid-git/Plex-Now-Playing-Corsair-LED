@@ -10,7 +10,6 @@ Open Powershell and run the following command:
 
     Set-ExecutionPolicy -scope LocalMachine -ExecutionPolicy RemoteSigned
 Optimal to do this both for 64/32-bit Powershell.
-
 ![enter image description here](https://i.imgur.com/dFkj2qS.png)
 
 

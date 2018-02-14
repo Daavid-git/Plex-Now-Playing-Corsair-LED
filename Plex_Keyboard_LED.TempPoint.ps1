@@ -10,16 +10,11 @@
 	.DESCRIPTION
 		A description of the file.
 #>
-Add-Type -Assembly System.Drawing
-
 $active = $true
 $keyboard_found = $false
-$execute_delay = 10
 
-Start-Sleep -Seconds $execute_delay
-
-$Plex_token = "5pT3LLExRHoXszJNrDRV"
-$Plex_local_server_IP = "192.168.1.220"
+$Plex_token = ""
+$Plex_local_server_IP = ""
 $Check_interval_secounds = 10
 $LED_color = [System.Drawing.Color]::Orange
 
