@@ -2,7 +2,7 @@
 
 # Plex Now-Playing Corsair LED
 
-This script will change the color on your numpad keys in order to display the current active steams on your plex server.
+This script will change the color on your F1-12 keys in order to display the current active steams on your plex server.
 
 *Thanks to [Darth Affe](http://forum.corsair.com/v3/showthread.php?t=149863) for the .NET wrapper/SDK.* 
 
